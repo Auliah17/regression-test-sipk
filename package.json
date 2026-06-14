@@ -1,0 +1,13 @@
+{
+  "name": "regression-test-suite",
+  "version": "1.0.0",
+  "main": "server-crud.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest --coverage --verbose"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
+  }
+}
